@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripta un mensaje</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Homemade+Apple" rel="stylesheet">
+</head>
+<body>
+    <h1>DESCIFRAR UN MENSAJE</h1>
+    <h2>A través de este programa puedes compartir mensajes ocultos a tus amigos para que ellos lo puedan descifrar, ¡Y muchas posibilidades más!</h2>
+    <select name="opt2" id="option2">
+        <option value="en">Cifrado César</option>
+
+        <option value="de">Cifrado Vigenère</option>
+    </select>
+    <br>
+    <textarea class="textarea1" name="text" id="mensaje" cols="50" rows="10" required="required" placeholder="¿Que mensaje quieres codificar o decodificar?"></textarea>
+    <div></div>
+    <input class="cifrar" type="submit" id="cifrar" value="Cifrar">
+    <input class="descifrar" type="submit" id="descifrar" value="Descifrar">
+    
+    <h3>Tu texto incriptado</h3>
+    <textarea class="textarea2" name="text" id="mensaje2" cols="50" rows="10" required="required"></textarea>
+    <br>
+    <br>
+    <br>
+    <script src="script.js"></script>
+</body>
+</html>

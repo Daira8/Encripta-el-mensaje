@@ -1,0 +1,87 @@
+body{
+    margin-top: 60px;
+    background-image: url(../../Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin-left: 658px;
+    font-size: 40px;
+    font-family: 'Jacques Francois Shadow', serif;
+    background: linear-gradient(#D8EEF2,#5B929D);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #CFC2B8;
+    margin-left: 600px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+select{
+    margin-left: 880px;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.textarea1{
+    margin-top: 30px;
+    margin-left: 670px;
+    width: 480px;
+    height: 150px;
+    position: relative;
+    background-image: url(../../FondoTexto.jpg);
+    color: #59381C;
+    border-color: #A67538;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 40px;
+    font-size: 17px;
+    font-family:'Homemade Apple', cursive;
+}
+
+.cifrar{
+    margin-top: 30px;
+    margin-right: 48px;
+    margin-left: 733px;
+    width: 170px;
+    height: 48px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.descifrar{
+    margin-left: 48px;
+    width: 170px;
+    height: 48px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 700px;
+}
+
+.textarea2{
+    margin-top: 10px;
+    margin-left: 670px;
+    width: 480px;
+    height: 150px;
+    position: relative;
+    background-image: url(../../FondoTexto.jpg);
+    color: #59381C;
+    border-color: #A67538;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 40px;
+    font-size: 17px;
+    font-family:'Homemade Apple', cursive;
+}
