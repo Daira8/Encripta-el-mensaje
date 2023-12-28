@@ -30,8 +30,24 @@ select{
     border-radius: 5px;
 }
 
+.contra{
+    margin-left: 670px;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 366px;
+    height: 32px;
+    padding: 8px;
+    padding-left: 48px;
+    background-image: url(../../FondoTexto.jpg);
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 22px;
+    color: #59381C;
+    border-radius: 5px;
+    border-color: #A67538;
+}
+
 .textarea1{
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 670px;
     width: 480px;
     height: 150px;
@@ -42,8 +58,9 @@ select{
     border-width: 3px;
     border-radius: 5px;
     padding: 40px;
-    font-size: 17px;
-    font-family:'Homemade Apple', cursive;
+    font-size: 24px;
+    font-family: 'La Belle Aurore', cursive;
+    
 }
 
 .cifrar{
@@ -66,22 +83,20 @@ select{
 
 h3{
     margin-top: 50px;
-    margin-bottom: 20px;
-    margin-left: 700px;
+    margin-bottom: 5px;
+    margin-left: 718px;
+    color: #5B929D;
+    font-family:'Averia Serif Libre', serif;
 }
 
-.textarea2{
-    margin-top: 10px;
-    margin-left: 670px;
-    width: 480px;
-    height: 150px;
-    position: relative;
-    background-image: url(../../FondoTexto.jpg);
+.desplazamiento{
+    width: 53px;
+    height: 44px;
+    padding-left: 48px;
     color: #59381C;
-    border-color: #A67538;
-    border-width: 3px;
+    font-size: 22px;
+    font-family: 'La Belle Aurore', cursive;
+    background-image: url(../../FondoTexto.jpg);
     border-radius: 5px;
-    padding: 40px;
-    font-size: 17px;
-    font-family:'Homemade Apple', cursive;
+    border-color: #A67538;
 }
